@@ -1,0 +1,5 @@
+./v4l2test1
+shashi:test_video_open
+shashi:test_video_close
+
+

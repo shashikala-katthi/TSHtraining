@@ -1,0 +1,11 @@
+./v4l2test2
+shashi:test_video_open
+shashi:video_open:VIDIOC_QERYCAP
+Device /dev/video0 opened: Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-5).
+shashi:test_video_close
+
+
+
+dmesg
+[ 5348.347715] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+

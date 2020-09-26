@@ -1,0 +1,391 @@
+
+
+shashi:main:video_open
+shashi:video_open:VIDIOC_QERYCAP
+Device /dev/video0 opened: Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-5).
+shashi:video_get_format:VIDIOC_G_FMT
+Video format: MJPG (47504a4d) 1280x720
+shashi:video_prepare_capture
+shashi:video_alloc_buffers:VIDIOC_REQBUFS
+8 buffers requested.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 0
+Buffer 0 mapped at address 0x7fc154229000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 1847296
+Buffer 1 mapped at address 0x7fc153c55000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 3694592
+Buffer 2 mapped at address 0x7fc153a92000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 5541888
+Buffer 3 mapped at address 0x7fc1538cf000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 7389184
+Buffer 4 mapped at address 0x7fc15370c000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 9236480
+Buffer 5 mapped at address 0x7fc153549000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 11083776
+Buffer 6 mapped at address 0x7fc153386000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 1843789 offset: 12931072
+Buffer 7 mapped at address 0x7fc1531c3000.
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_enable:enable ? VIDIOC_STREAMON : VIDIOC_STREAMOFF
+shashi:video_do_capture:VIDIOC_DQBUF
+0 (0) [-] 0 49960 bytes 1375.246225 1600235726.182680
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+1 (1) [-] 2 49944 bytes 1376.842226 1600235726.382635
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+2 (2) [-] 3 51952 bytes 1377.042228 1600235726.582630
+shashi:video_do_capture:VIDIOC_DQBUF
+3 (3) [-] 4 51944 bytes 1377.242226 1600235726.782690
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+4 (4) [-] 5 57504 bytes 1377.442227 1600235726.982631
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+5 (5) [-] 6 57680 bytes 1377.642235 1600235727.182662
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+6 (6) [-] 7 60096 bytes 1377.842230 1600235727.382644
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+7 (7) [-] 8 60120 bytes 1378.042229 1600235727.582641
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+8 (0) [-] 9 67384 bytes 1378.242225 1600235727.782635
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_do_capture:VIDIOC_DQBUF
+9 (1) [-] 10 67464 bytes 1378.442243 1600235727.982642
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_enable:enable ? VIDIOC_STREAMON : VIDIOC_STREAMOFF
+Captured 9 frames in 1.800521 seconds (4.998553 fps, 318823.273930 B/s).
+shashi:video_free_buffers:VIDIOC_REQBUFS
+8 buffers released.
+shashi:main:before:video_close
+shashi:video_close:before:free(dev->pattern)
+shashi:video_close:before:free(dev->buffers)
+shashi:video_close:before:close(dev->fd)
+
+
+shashi:main:video_open
+shashi:video_open:VIDIOC_QERYCAP
+Device /dev/video0 opened: Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-5).
+shashi:main:do_list_control
+shashi:video_list_controls
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980900 Brightness min -64 max 64 step 1 default 0 current 0.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980901 Contrast min 0 max 95 step 1 default 0 current 0.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980902 Saturation min 0 max 100 step 1 default 64 current 64.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980903 Hue min -2000 max 2000 step 1 default 0 current 0.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x0098090c White Balance Temperature, Auto min 0 max 1 step 1 default 1 current 1.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980910 Gamma min 100 max 300 step 1 default 100 current 100.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980913 Gain min 1 max 8 step 1 default 1 current 1.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x00980918 Power Line Frequency min 0 max 2 step 1 default 2 current 2.
+shashi:video_query_menu:VIDIOC_QUERYMENU
+  0: Disabled
+shashi:video_query_menu:VIDIOC_QUERYMENU
+  1: 50 Hz
+shashi:video_query_menu:VIDIOC_QUERYMENU
+  2: 60 Hz
+shashi:video_query_menu:VIDIOC_QUERYMENU
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x0098091a White Balance Temperature min 2800 max 6500 step 1 default 4600 current 4600.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x0098091b Sharpness min 1 max 7 step 1 default 2 current 2.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x0098091c Backlight Compensation min 0 max 3 step 1 default 3 current 3.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x009a0901 Exposure, Auto min 0 max 3 step 1 default 3 current 3.
+shashi:video_query_menu:VIDIOC_QUERYMENU
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x009a0902 Exposure (Absolute) min 9 max 625 step 1 default 157 current 157.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+shashi:video_list_controls:VIDIOC_G_CTRL
+control 0x009a0903 Exposure, Auto Priority min 0 max 1 step 1 default 0 current 1.
+shashi:video_list_controls:VIDIOC_QUERYCTRL
+14 controls found.
+- Available formats:
+shashi:video_enum_formats:VIDIOC_ENUM_FMT
+shashi:v4l2_fourcc_name
+	Format 0: MJPG (47504a4d)
+shashi:v4l2_buf_type_name
+	Type: Video capture (1)
+	Name: Motion-JPEG
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 1280x720 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 960x540 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 848x480 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 1280x720 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+
+shashi:video_enum_formats:VIDIOC_ENUM_FMT
+shashi:v4l2_fourcc_name
+	Format 1: YUYV (56595559)
+shashi:v4l2_buf_type_name
+	Type: Video capture (1)
+	Name: YUYV 4:2:2
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 640x480 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 640x360 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 424x240 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 320x240 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 320x180 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 160x120 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+	Frame size: 640x480 (shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+1/30shashi:video_enum_frame_intervals:VIDIOC_ENUM_FRAMEINTERVALS
+)
+shashi:video_enum_frame_sizes:VIDIOC_ENUM_FRAMESIZES
+
+shashi:video_enum_formats:VIDIOC_ENUM_FMT
+shashi:video_enum_formats:VIDIOC_ENUM_FMT
+shashi:video_enum_formats:VIDIOC_ENUM_FMT
+- Available inputs:
+shashi:video_enum_inputs:VIDIOC_ENUM_INPUTS
+	Input 0: Camera 1.
+shashi:video_enum_inputs:VIDIOC_ENUM_INPUTS
+
+shashi:video_get_format:VIDIOC_G_FMT
+Video format: MJPG (47504a4d) 1280x720
+shashi:main:!do_capture:video_close
+shashi:video_close:before:free(dev->pattern)
+shashi:video_close:before:free(dev->buffers)
+shashi:video_close:before:close(dev->fd)
+
+
+[ 1374.456752] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[ 1374.456838] video0: VIDIOC_G_FMT: type=vid-cap, width=1280, height=720, pixelformat=MJPG, field=none, bytesperline=0, sizeimage=1843789, colorspace=0, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[ 1374.457511] vb2-core: __setup_offsets: buffer 0, plane 0 offset 0x00000000
+[ 1374.458016] vb2-core: __setup_offsets: buffer 1, plane 0 offset 0x001c3000
+[ 1374.458469] vb2-core: __setup_offsets: buffer 2, plane 0 offset 0x00386000
+[ 1374.458924] vb2-core: __setup_offsets: buffer 3, plane 0 offset 0x00549000
+[ 1374.459397] vb2-core: __setup_offsets: buffer 4, plane 0 offset 0x0070c000
+[ 1374.459854] vb2-core: __setup_offsets: buffer 5, plane 0 offset 0x008cf000
+[ 1374.460456] vb2-core: __setup_offsets: buffer 6, plane 0 offset 0x00a92000
+[ 1374.460912] vb2-core: __setup_offsets: buffer 7, plane 0 offset 0x00c55000
+[ 1374.460915] vb2-core: __vb2_queue_alloc: allocated 8 buffers, 1 plane(s) each
+[ 1374.460919] video0: VIDIOC_REQBUFS: count=8, type=vid-cap, memory=mmap
+[ 1374.460982] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=0, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x0, length=1843789
+[ 1374.461002] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461133] vb2-core: vb2_mmap: buffer 0, plane 0 successfully mapped
+[ 1374.461157] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=1, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x1c3000, length=1843789
+[ 1374.461171] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461278] vb2-core: vb2_mmap: buffer 1, plane 0 successfully mapped
+[ 1374.461294] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=2, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x386000, length=1843789
+[ 1374.461307] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461409] vb2-core: vb2_mmap: buffer 2, plane 0 successfully mapped
+[ 1374.461426] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=3, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x549000, length=1843789
+[ 1374.461439] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461545] vb2-core: vb2_mmap: buffer 3, plane 0 successfully mapped
+[ 1374.461561] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=4, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x70c000, length=1843789
+[ 1374.461573] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461634] vb2-core: vb2_mmap: buffer 4, plane 0 successfully mapped
+[ 1374.461639] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=5, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x8cf000, length=1843789
+[ 1374.461643] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461676] vb2-core: vb2_mmap: buffer 5, plane 0 successfully mapped
+[ 1374.461682] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=6, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0xa92000, length=1843789
+[ 1374.461686] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461724] vb2-core: vb2_mmap: buffer 6, plane 0 successfully mapped
+[ 1374.461730] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=7, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0xc55000, length=1843789
+[ 1374.461734] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[ 1374.461769] vb2-core: vb2_mmap: buffer 7, plane 0 successfully mapped
+[ 1374.461997] vb2-core: vb2_core_qbuf: qbuf of buffer 0 succeeded
+[ 1374.462231] vb2-core: vb2_core_qbuf: qbuf of buffer 1 succeeded
+[ 1374.462471] vb2-core: vb2_core_qbuf: qbuf of buffer 2 succeeded
+[ 1374.462706] vb2-core: vb2_core_qbuf: qbuf of buffer 3 succeeded
+[ 1374.462941] vb2-core: vb2_core_qbuf: qbuf of buffer 4 succeeded
+[ 1374.463182] vb2-core: vb2_core_qbuf: qbuf of buffer 5 succeeded
+[ 1374.463423] vb2-core: vb2_core_qbuf: qbuf of buffer 6 succeeded
+[ 1374.463693] vb2-core: vb2_core_qbuf: qbuf of buffer 7 succeeded
+[ 1375.242130] vb2-core: vb2_core_streamon: successful
+[ 1375.242137] video0: VIDIOC_STREAMON: type=vid-cap
+[ 1375.242197] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1376.810225] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1376.810231] vb2-core: vb2_core_dqbuf: dqbuf of buffer 0, with state 0
+[ 1376.810750] vb2-core: vb2_core_qbuf: qbuf of buffer 0 succeeded
+[ 1376.810761] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1377.010198] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1377.010204] vb2-core: vb2_core_dqbuf: dqbuf of buffer 1, with state 0
+[ 1377.010674] vb2-core: vb2_core_qbuf: qbuf of buffer 1 succeeded
+[ 1377.010683] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1377.210193] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1377.210200] vb2-core: vb2_core_dqbuf: dqbuf of buffer 2, with state 0
+[ 1377.210385] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1377.410254] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1377.410260] vb2-core: vb2_core_dqbuf: dqbuf of buffer 3, with state 0
+[ 1377.410715] vb2-core: vb2_core_qbuf: qbuf of buffer 3 succeeded
+[ 1377.410724] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1377.610195] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1377.610201] vb2-core: vb2_core_dqbuf: dqbuf of buffer 4, with state 0
+[ 1377.610661] vb2-core: vb2_core_qbuf: qbuf of buffer 4 succeeded
+[ 1377.610674] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1377.810225] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1377.810232] vb2-core: vb2_core_dqbuf: dqbuf of buffer 5, with state 0
+[ 1377.810688] vb2-core: vb2_core_qbuf: qbuf of buffer 5 succeeded
+[ 1377.810698] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1378.010206] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1378.010212] vb2-core: vb2_core_dqbuf: dqbuf of buffer 6, with state 0
+[ 1378.010683] vb2-core: vb2_core_qbuf: qbuf of buffer 6 succeeded
+[ 1378.010692] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1378.210205] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1378.210211] vb2-core: vb2_core_dqbuf: dqbuf of buffer 7, with state 0
+[ 1378.210672] vb2-core: vb2_core_qbuf: qbuf of buffer 7 succeeded
+[ 1378.210689] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1378.410199] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1378.410205] vb2-core: vb2_core_dqbuf: dqbuf of buffer 0, with state 0
+[ 1378.410679] vb2-core: vb2_core_qbuf: qbuf of buffer 0 succeeded
+[ 1378.410696] vb2-core: __vb2_wait_for_done_vb: will sleep waiting for buffers
+[ 1378.610204] vb2-core: vb2_core_dqbuf: returning done buffer
+[ 1378.610210] vb2-core: vb2_core_dqbuf: dqbuf of buffer 1, with state 0
+[ 1378.610771] vb2-core: vb2_core_qbuf: qbuf of buffer 1 succeeded
+[ 1379.053702] vb2-core: vb2_core_streamoff: successful
+[ 1379.053709] video0: VIDIOC_STREAMOFF: type=vid-cap
+[ 1379.055235] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 0
+[ 1379.055373] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 1
+[ 1379.055511] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 2
+[ 1379.055650] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 3
+[ 1379.055785] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 4
+[ 1379.055922] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 5
+[ 1379.056124] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 6
+[ 1379.056295] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 7
+[ 1379.056303] video0: VIDIOC_REQBUFS: count=0, type=vid-cap, memory=mmap
+[ 1388.080726] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[ 1388.080864] video0: VIDIOC_QUERYCTRL: id=0x980900, type=1, name=Brightness, min/max=-64/64, step=1, default=0, flags=0x00000000
+[ 1388.080898] video0: VIDIOC_G_CTRL: id=0x980900, value=0
+[ 1388.080954] video0: VIDIOC_QUERYCTRL: id=0x980901, type=1, name=Contrast, min/max=0/95, step=1, default=0, flags=0x00000000
+[ 1388.080979] video0: VIDIOC_G_CTRL: id=0x980901, value=0
+[ 1388.081020] video0: VIDIOC_QUERYCTRL: id=0x980902, type=1, name=Saturation, min/max=0/100, step=1, default=64, flags=0x00000000
+[ 1388.081046] video0: VIDIOC_G_CTRL: id=0x980902, value=64
+[ 1388.081080] video0: VIDIOC_QUERYCTRL: id=0x980903, type=1, name=Hue, min/max=-2000/2000, step=1, default=0, flags=0x00000000
+[ 1388.081506] video0: VIDIOC_G_CTRL: id=0x980903, value=0
+[ 1388.081578] video0: VIDIOC_QUERYCTRL: id=0x98090c, type=2, name=White Balance Temperature, Auto, min/max=0/1, step=1, default=1, flags=0x00000000
+[ 1388.081597] video0: VIDIOC_G_CTRL: id=0x98090c, value=1
+[ 1388.081622] video0: VIDIOC_QUERYCTRL: id=0x980910, type=1, name=Gamma, min/max=100/300, step=1, default=100, flags=0x00000000
+[ 1388.081646] video0: VIDIOC_G_CTRL: id=0x980910, value=100
+[ 1388.081678] video0: VIDIOC_QUERYCTRL: id=0x980913, type=1, name=Gain, min/max=1/8, step=1, default=1, flags=0x00000000
+[ 1388.081702] video0: VIDIOC_G_CTRL: id=0x980913, value=1
+[ 1388.081743] video0: VIDIOC_QUERYCTRL: id=0x980918, type=3, name=Power Line Frequency, min/max=0/2, step=1, default=2, flags=0x00000000
+[ 1388.081767] video0: VIDIOC_G_CTRL: id=0x980918, value=2
+[ 1388.081804] video0: VIDIOC_QUERYMENU: id=0x980918, index=0
+[ 1388.081836] video0: VIDIOC_QUERYMENU: id=0x980918, index=1
+[ 1388.081863] video0: VIDIOC_QUERYMENU: id=0x980918, index=2
+[ 1388.081887] video0: VIDIOC_QUERYMENU: error -22: id=0x980918, index=3
+[ 1388.081912] video0: VIDIOC_QUERYCTRL: id=0x98091a, type=1, name=White Balance Temperature, min/max=2800/6500, step=1, default=4600, flags=0x00000010
+[ 1388.082203] video0: VIDIOC_G_CTRL: id=0x98091a, value=4600
+[ 1388.082267] video0: VIDIOC_QUERYCTRL: id=0x98091b, type=1, name=Sharpness, min/max=1/7, step=1, default=2, flags=0x00000000
+[ 1388.082296] video0: VIDIOC_G_CTRL: id=0x98091b, value=2
+[ 1388.082330] video0: VIDIOC_QUERYCTRL: id=0x98091c, type=1, name=Backlight Compensation, min/max=0/3, step=1, default=3, flags=0x00000000
+[ 1388.082354] video0: VIDIOC_G_CTRL: id=0x98091c, value=3
+[ 1388.082392] video0: VIDIOC_QUERYCTRL: id=0x9a0901, type=3, name=Exposure, Auto, min/max=0/3, step=1, default=3, flags=0x00000000
+[ 1388.082416] video0: VIDIOC_G_CTRL: id=0x9a0901, value=3
+[ 1388.082452] video0: VIDIOC_QUERYMENU: error -22: id=0x9a0901, index=0
+[ 1388.082478] video0: VIDIOC_QUERYCTRL: id=0x9a0902, type=1, name=Exposure (Absolute), min/max=9/625, step=1, default=157, flags=0x00000010
+[ 1388.082755] video0: VIDIOC_G_CTRL: id=0x9a0902, value=157
+[ 1388.082789] video0: VIDIOC_QUERYCTRL: id=0x9a0903, type=2, name=Exposure, Auto Priority, min/max=0/1, step=1, default=0, flags=0x00000000
+[ 1388.082813] video0: VIDIOC_G_CTRL: id=0x9a0903, value=1
+[ 1388.082842] video0: VIDIOC_QUERYCTRL: error -22: id=0x809a0903, type=0, name=, min/max=0/0, step=0, default=0, flags=0x00000000
+[ 1388.082885] video0: VIDIOC_ENUM_FMT: index=0, type=vid-cap, flags=0x1, pixelformat=MJPG, description='Motion-JPEG'
+[ 1388.082964] video0: VIDIOC_ENUM_FRAMESIZES: index=0, pixelformat=MJPG, type=1, wxh=1280x720
+[ 1388.082991] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=MJPG, wxh=1280x720, type=1, fps=1/30
+[ 1388.083017] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=MJPG, wxh=1280x720, type=0
+[ 1388.083049] video0: VIDIOC_ENUM_FRAMESIZES: index=1, pixelformat=MJPG, type=1, wxh=960x540
+[ 1388.083075] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=MJPG, wxh=960x540, type=1, fps=1/30
+[ 1388.083096] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=MJPG, wxh=960x540, type=0
+[ 1388.083115] video0: VIDIOC_ENUM_FRAMESIZES: index=2, pixelformat=MJPG, type=1, wxh=848x480
+[ 1388.083132] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=MJPG, wxh=848x480, type=1, fps=1/30
+[ 1388.083149] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=MJPG, wxh=848x480, type=0
+[ 1388.083167] video0: VIDIOC_ENUM_FRAMESIZES: index=3, pixelformat=MJPG, type=1, wxh=1280x720
+[ 1388.083184] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=MJPG, wxh=1280x720, type=1, fps=1/30
+[ 1388.083201] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=MJPG, wxh=1280x720, type=0
+[ 1388.083220] video0: VIDIOC_ENUM_FRAMESIZES: error -22: index=4, pixelformat=MJPG, type=0
+[ 1388.083246] video0: VIDIOC_ENUM_FMT: index=1, type=vid-cap, flags=0x0, pixelformat=YUYV, description='YUYV 4:2:2'
+[ 1388.083300] video0: VIDIOC_ENUM_FRAMESIZES: index=0, pixelformat=YUYV, type=1, wxh=640x480
+[ 1388.083318] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=640x480, type=1, fps=1/30
+[ 1388.083334] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=640x480, type=0
+[ 1388.083353] video0: VIDIOC_ENUM_FRAMESIZES: index=1, pixelformat=YUYV, type=1, wxh=640x360
+[ 1388.083370] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=640x360, type=1, fps=1/30
+[ 1388.083386] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=640x360, type=0
+[ 1388.083404] video0: VIDIOC_ENUM_FRAMESIZES: index=2, pixelformat=YUYV, type=1, wxh=424x240
+[ 1388.083421] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=424x240, type=1, fps=1/30
+[ 1388.083437] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=424x240, type=0
+[ 1388.083455] video0: VIDIOC_ENUM_FRAMESIZES: index=3, pixelformat=YUYV, type=1, wxh=320x240
+[ 1388.083472] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=320x240, type=1, fps=1/30
+[ 1388.083488] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=320x240, type=0
+[ 1388.083507] video0: VIDIOC_ENUM_FRAMESIZES: index=4, pixelformat=YUYV, type=1, wxh=320x180
+[ 1388.083523] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=320x180, type=1, fps=1/30
+[ 1388.083539] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=320x180, type=0
+[ 1388.083558] video0: VIDIOC_ENUM_FRAMESIZES: index=5, pixelformat=YUYV, type=1, wxh=160x120
+[ 1388.083574] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=160x120, type=1, fps=1/30
+[ 1388.083591] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=160x120, type=0
+[ 1388.083609] video0: VIDIOC_ENUM_FRAMESIZES: index=6, pixelformat=YUYV, type=1, wxh=640x480
+[ 1388.083626] video0: VIDIOC_ENUM_FRAMEINTERVALS: index=0, pixelformat=YUYV, wxh=640x480, type=1, fps=1/30
+[ 1388.083642] video0: VIDIOC_ENUM_FRAMEINTERVALS: error -22: index=1, pixelformat=YUYV, wxh=640x480, type=0
+[ 1388.083660] video0: VIDIOC_ENUM_FRAMESIZES: error -22: index=7, pixelformat=YUYV, type=0
+[ 1388.083679] video0: VIDIOC_ENUM_FMT: error -22: index=2, type=vid-cap, flags=0x0, pixelformat=
+[ 1388.083695] video0: VIDIOC_ENUM_FMT: error -22: index=0, type=vid-out, flags=0x0, pixelformat=
+[ 1388.083711] video0: VIDIOC_ENUM_FMT: error -22: index=0, type=vid-overlay, flags=0x0, pixelformat=
+[ 1388.083732] video0: VIDIOC_ENUMINPUT: index=0, name=Camera 1, type=2, audioset=0x0, tuner=0, std=0x00000000, status=0x0, capabilities=0x0
+[ 1388.083756] video0: VIDIOC_ENUMINPUT: error -22: index=1, name=, type=0, audioset=0x0, tuner=0, std=0x00000000, status=0x0, capabilities=0x0
+[ 1388.083779] video0: VIDIOC_G_FMT: type=vid-cap, width=1280, height=720, pixelformat=MJPG, field=none, bytesperline=0, sizeimage=1843789, colorspace=0, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+

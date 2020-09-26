@@ -1,0 +1,47 @@
+./v4l2test3
+shashi:test_video_open
+shashi:video_open:VIDIOC_QERYCAP
+Device /dev/video0 opened: Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-5).
+shashi:video_set_format:
+shashi:video_set_format:VIDIOC_S_FMT
+Video format set: width: 640 height: 480 buffer size: 614400
+shashi:video_set_framerate
+Setting frame rate to: 1/30
+shashi:video_set_framerate:VIDIOC_S_PARAM
+Frame rate set: 1/30
+shashi:test_video_close
+
+
+
+
+
+dmesg
+[13736.883821] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[13786.399159] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[13991.020272] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[13991.028675] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[14679.954953] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[14679.963218] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[14679.963320] video0: VIDIOC_G_PARM: type=vid-cap, capability=0x1000, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[14679.971353] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x1000, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[14679.971419] video0: VIDIOC_G_PARM: type=vid-cap, capability=0x1000, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[14843.940592] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[14843.948851] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[14843.956704] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[14843.956759] video0: VIDIOC_G_PARM: type=vid-cap, capability=0x1000, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[14896.963974] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[14896.972344] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[14896.980291] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[15055.929820] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[15055.938151] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[15055.946139] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[15295.558530] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[15295.566889] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[15295.574965] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[15377.825444] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[15377.833757] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[15377.841715] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[15653.537765] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[15653.546124] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[15653.554091] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+

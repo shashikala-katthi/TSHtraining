@@ -1,0 +1,86 @@
+./v4l2test4
+shashi:test_video_open
+shashi:test_video_open:VIDIOC_QERYCAP
+Device /dev/video0 opened: Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-5).
+shashi:video_set_format:
+shashi:video_set_format:VIDIOC_S_FMT
+Video format set: width: 640 height: 480 buffer size: 614400
+shashi:video_set_framerate
+Setting frame rate to: 1/30
+shashi:video_set_framerate:VIDIOC_S_PARAM
+Frame rate set: 1/30
+shashi:video_prepare_capture
+shashi:video_alloc_buffers:VIDIOC_REQBUFS
+6 buffers requested.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 614400 offset: 0
+Buffer 0 mapped at address 0x7f3c3e5bd000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 614400 offset: 614400
+Buffer 1 mapped at address 0x7f3c3e527000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 614400 offset: 1228800
+Buffer 2 mapped at address 0x7f3c3e491000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 614400 offset: 1843200
+Buffer 3 mapped at address 0x7f3c3dfe9000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 614400 offset: 2457600
+Buffer 4 mapped at address 0x7f3c3df53000.
+shashi:video_alloc_buffers:VIDIOC_QUERYBUF
+length: 614400 offset: 3072000
+Buffer 5 mapped at address 0x7f3c3debd000.
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:video_queue_buffer:VIDIOC_QBUF
+shashi:test_video_close
+
+
+
+
+dmesg
+[21851.853461] video0: VIDIOC_QUERYCAP: driver=uvcvideo, card=Integrated_Webcam_HD: Integrate, bus=usb-0000:00:14.0-5, version=0x00040f12, capabilities=0x84200001, device_caps=0x04200001
+[21851.861800] video0: VIDIOC_S_FMT: type=vid-cap, width=640, height=480, pixelformat=YUYV, field=none, bytesperline=1280, sizeimage=614400, colorspace=8, flags=0x0, ycbcr_enc=0, quantization=0, xfer_func=0
+[21851.869580] video0: VIDIOC_S_PARM: type=vid-cap, capability=0x0, capturemode=0x0, timeperframe=1/30, extendedmode=0, readbuffers=0
+[21851.870398] vb2-core: __setup_offsets: buffer 0, plane 0 offset 0x00000000
+[21851.870609] vb2-core: __setup_offsets: buffer 1, plane 0 offset 0x00096000
+[21851.870814] vb2-core: __setup_offsets: buffer 2, plane 0 offset 0x0012c000
+[21851.871044] vb2-core: __setup_offsets: buffer 3, plane 0 offset 0x001c2000
+[21851.871258] vb2-core: __setup_offsets: buffer 4, plane 0 offset 0x00258000
+[21851.871461] vb2-core: __setup_offsets: buffer 5, plane 0 offset 0x002ee000
+[21851.871465] vb2-core: __vb2_queue_alloc: allocated 6 buffers, 1 plane(s) each
+[21851.871471] video0: VIDIOC_REQBUFS: count=6, type=vid-cap, memory=mmap
+[21851.871553] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=0, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x0, length=614400
+[21851.871575] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[21851.871685] vb2-core: vb2_mmap: buffer 0, plane 0 successfully mapped
+[21851.871737] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=1, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x96000, length=614400
+[21851.871758] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[21851.871855] vb2-core: vb2_mmap: buffer 1, plane 0 successfully mapped
+[21851.871885] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=2, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x12c000, length=614400
+[21851.871904] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[21851.871974] vb2-core: vb2_mmap: buffer 2, plane 0 successfully mapped
+[21851.872010] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=3, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x1c2000, length=614400
+[21851.872029] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[21851.872147] vb2-core: vb2_mmap: buffer 3, plane 0 successfully mapped
+[21851.872179] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=4, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x258000, length=614400
+[21851.872198] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[21851.872280] vb2-core: vb2_mmap: buffer 4, plane 0 successfully mapped
+[21851.872318] video0: VIDIOC_QUERYBUF: 00:00:00.00000000 index=5, type=vid-cap, flags=0x00012000, field=any, sequence=0, memory=mmap, bytesused=0, offset/userptr=0x2ee000, length=614400
+[21851.872339] timecode=00:00:00 type=0, flags=0x00000000, frames=0, userbits=0x00000000
+[21851.872420] vb2-core: vb2_mmap: buffer 5, plane 0 successfully mapped
+[21851.872839] vb2-core: vb2_core_qbuf: qbuf of buffer 0 succeeded
+[21851.873121] vb2-core: vb2_core_qbuf: qbuf of buffer 1 succeeded
+[21851.873833] vb2-core: vb2_core_qbuf: qbuf of buffer 2 succeeded
+[21851.874354] vb2-core: vb2_core_qbuf: qbuf of buffer 3 succeeded
+[21851.874908] vb2-core: vb2_core_qbuf: qbuf of buffer 4 succeeded
+[21851.875339] vb2-core: vb2_core_qbuf: qbuf of buffer 5 succeeded
+[21851.875925] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 0
+[21851.875972] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 1
+[21851.876012] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 2
+[21851.876052] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 3
+[21851.876090] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 4
+[21851.876128] vb2-core: __vb2_buf_mem_free: freed plane 0 of buffer 5
+
