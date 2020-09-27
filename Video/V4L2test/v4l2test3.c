@@ -51,7 +51,8 @@
 
 #define ARRAY_SIZE(a)	(sizeof(a)/sizeof((a)[0]))
 
-
+/* device structure containing data members are file descriptor ,buffer type
+   and height and width,bytesperline,size */
 struct device
 {
 	int fd;
@@ -70,8 +71,8 @@ static int video_set_framerate(struct device *dev, struct v4l2_fract *time_per_f
 static int video_set_framerate(struct device *dev, struct v4l2_fract *time_per_frame);
 
 
-/* open the device taking aruments as devname,file descriptor,third argument as zero
-and querying the device capabilities like card and bus information*/
+/* open the device taking arguments as devname,file descriptor,third argument as zero
+and querying the device capabilities like card(webcam) and bus information*/
 static int test_video_open(struct device *dev, const char *devname, int no_query)
 {
 	struct v4l2_capability cap;
@@ -116,8 +117,8 @@ static int test_video_open(struct device *dev, const char *devname, int no_query
 	return 0;
 }
 
-
-/* setting the video format taking arguments as height as 480 and width as 640 and format as YUYV */
+/* setting the video format taking arguments as file descriptor of the device and height as 480 and width as 640 
+  and format as YUYV */
 static int video_set_format(struct device *dev, unsigned int w, unsigned int h, unsigned int format)
 {
 	struct v4l2_format fmt;
@@ -144,7 +145,9 @@ static int video_set_format(struct device *dev, unsigned int w, unsigned int h, 
 
 
 
-/*setting the frame rate to 1/30 */
+/*setting the frame rate to time per frame if you want 30 frames in one sec ,so numerator as 1 and denominator as 30
+frame rate =1/30 */
+
 static int video_set_framerate(struct device *dev, struct v4l2_fract *time_per_frame)
 {
 	struct v4l2_streamparm parm;
@@ -173,7 +176,7 @@ static int video_set_framerate(struct device *dev, struct v4l2_fract *time_per_f
 	return 0;
 }
 
-/* closing the video device using file descriptor */
+/* closing the video device taking argument as file descriptor of the device*/
 static void test_video_close(struct device *dev)
 {
 	

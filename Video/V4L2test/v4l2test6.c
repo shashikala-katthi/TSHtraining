@@ -60,13 +60,16 @@
 #define V4L_BUFFERS_DEFAULT	6
 #define V4L_BUFFERS_MAX	32
 
+
+/* buffer structure containing data members as size and memory */
 struct buffer
 {
 	unsigned int size;
 	void *mem;
 };
 
-
+/* device structure containing data members are file descriptor ,buffer type and memory type and count of buffers 
+   and height and width,bytesperline,size */
 struct device
 {
 	int fd;
@@ -98,7 +101,7 @@ static int video_free_buffers(struct device *dev);
 
 
 /* open the device taking aruments as devname,file descriptor,third argument as zero
-and querying the device capabilities like card and bus information*/
+and querying the device capabilities like card(webcam) and bus information*/
 
 static int test_video_open(struct device *dev, const char *devname, int no_query)
 {
@@ -145,7 +148,8 @@ static int test_video_open(struct device *dev, const char *devname, int no_query
 }
 
 
-/* setting the video format taking arguments as height as 480 and width as 640 and format as YUYV */
+/* setting the video format taking arguments as file descriptor of the device and height as 480 and width as 640 
+  and format as YUYV */
 
 static int video_set_format(struct device *dev, unsigned int w, unsigned int h, unsigned int format)
 {
@@ -173,7 +177,8 @@ static int video_set_format(struct device *dev, unsigned int w, unsigned int h, 
 
 
 
-/*setting the frame rate to 1/30 */
+/*setting the frame rate to time per frame if you want 30 frames in one sec ,so numerator as 1 and denominator as 30
+frame rate =1/30 */
 
 static int video_set_framerate(struct device *dev, struct v4l2_fract *time_per_frame)
 {
@@ -205,7 +210,7 @@ static int video_set_framerate(struct device *dev, struct v4l2_fract *time_per_f
 
 
 
-/*allocating 6 buffers taking arguments as file descriptor,count ofbuffers,address,filename */
+/*allocating buffers taking arguments as file descriptor of the device,count of buffers,address,filename */
 
 static int video_prepare_capture(struct device *dev, int nbufs, unsigned int offset,
 				 const char *filename)
@@ -229,7 +234,8 @@ unsigned int i;
 
 
 
-/* allocating the buffers using malloc and mapping the buffers by using mmap */
+/* allocating the buffers taking arguments as file descriptor of the device and nbufs is no.of buffers  and address,by using 
+ malloc mapping the buffers */
 
 static int video_alloc_buffers(struct device *dev, int nbufs, unsigned int offset)
 {
@@ -307,7 +313,8 @@ static int video_alloc_buffers(struct device *dev, int nbufs, unsigned int offse
 
 
 
-/* buffers are placing into input queue */
+/* buffers are placing into input queue for capture taking arguments as file descriptor of the device 
+ and index of the buffer */
 
 static int video_queue_buffer(struct device *dev, int index)
 {
@@ -337,7 +344,8 @@ static int video_queue_buffer(struct device *dev, int index)
 
 
 
-/* stream on and stream off checking */
+/* video of the device is enabled or not checking by taking aruments as file descriptor of the device and one integer variable 
+if integer value is 1(stream on),if 0 (stream off)  */
 
 static int video_enable(struct device *dev, int enable)
 {
@@ -357,7 +365,8 @@ static int video_enable(struct device *dev, int enable)
 
 
 
-/* buffers are queueing and dequeueing and if stream off buffers will be free */
+/* device will capture the frames if stream on then buffers are queueing from the input queue and dequeueing from output queue, 
+    if stream off then allocated buffers will be free */
 
 static int video_do_capture(struct device *dev, unsigned int nframes,
 	unsigned int skip, unsigned int delay, const char *filename_prefix,
@@ -479,7 +488,8 @@ done:
 
 
 
-/*releasing the buffers(free) by using request buffers to know the count of buffers to be deallocated */
+/*buffers will be free after stream off taking argument as file descriptor of the device,releasing the buffers(free)
+   by using request buffers to know the count of buffers to be deallocated */
 static int video_free_buffers(struct device *dev)
 {
 	struct v4l2_requestbuffers rb;
@@ -520,7 +530,7 @@ static int video_free_buffers(struct device *dev)
 }
 
 
-/* closing the video device using file descriptor */
+/* closing the video device after releasing the buffers taking argument as file descriptor of the device*/
 static void test_video_close(struct device *dev)
 {
 	

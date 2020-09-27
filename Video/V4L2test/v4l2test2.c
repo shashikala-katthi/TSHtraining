@@ -50,7 +50,7 @@
 
 #define ARRAY_SIZE(a)	(sizeof(a)/sizeof((a)[0]))
 
-
+/* device structure containing data members are file descriptor ,buffer type */
 struct device
 {
 	int fd;
@@ -63,8 +63,8 @@ static int test_video_open(struct device *dev, const char *devname, int no_query
 static void test_video_close(struct device *dev);
 
 
-/* open the device taking aruments as devname,file descriptor,third argument as zero
-and querying the device capabilities like card and bus information*/
+/* open the device taking arguments as devname,file descriptor,third argument as zero
+and querying the device capabilities like card(webcam) and bus information*/
 static int test_video_open(struct device *dev, const char *devname, int no_query)
 {
 	struct v4l2_capability cap;
@@ -111,7 +111,7 @@ static int test_video_open(struct device *dev, const char *devname, int no_query
 }
 
 
-/* closing the video device using file descriptor */
+/* closing the video device taking argument as file descriptor of the device*/
 static void test_video_close(struct device *dev)
 {
 	
