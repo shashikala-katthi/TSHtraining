@@ -1,0 +1,737 @@
+katthi@katthi-Inspiron-15-3567:~/Downloads/video_training/ffmpeg-h264-dec$ ./h264dec test/352x288Foreman.264 test/352x288Foreman.yuv
+shashi:h264_video_decode
+Decode file 'test/352x288Foreman.264' to 'test/352x288Foreman.yuv'
+[h264 @ 0xe6c880] Warning: not compiled with thread support, using thread emulation
+shashi:decode_write_frame
+shashi:decode_write_frame
+shashi:decode_write_frame
+Got frame 0
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 1
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 2
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 3
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 4
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 5
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 6
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 7
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 8
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 9
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 10
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 11
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 12
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 13
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 14
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 15
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 16
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 17
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 18
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 19
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 20
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 21
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 22
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 23
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 24
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 25
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 26
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 27
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 28
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 29
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 30
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 31
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 32
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 33
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 34
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 35
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 36
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 37
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 38
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 39
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 40
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 41
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 42
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 43
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 44
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 45
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 46
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 47
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 48
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 49
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 50
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 51
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 52
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 53
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 54
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 55
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 56
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 57
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 58
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 59
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 60
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 61
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 62
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 63
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 64
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 65
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 66
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 67
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 68
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 69
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 70
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 71
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 72
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 73
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 74
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 75
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 76
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 77
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 78
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 79
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 80
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 81
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 82
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 83
+shashi:yuv_save
+shashi:decode_write_frame
+[h264 @ 0xe6c880] slice type 32 too large at -1
+[h264 @ 0xe6c880] decode_slice_header error
+[h264 @ 0xe6c880] decode_slice_header error
+Got frame 84
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 85
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 86
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 87
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 88
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 89
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 90
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 91
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 92
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 93
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 94
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 95
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 96
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 97
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 98
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 99
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 100
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 101
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 102
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 103
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 104
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 105
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 106
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 107
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 108
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 109
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 110
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 111
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 112
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 113
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 114
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 115
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 116
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 117
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 118
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 119
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 120
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 121
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 122
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 123
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 124
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 125
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 126
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 127
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 128
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 129
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 130
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 131
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 132
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 133
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 134
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 135
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 136
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 137
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 138
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 139
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 140
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 141
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 142
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 143
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 144
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 145
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 146
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 147
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 148
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 149
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 150
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 151
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 152
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 153
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 154
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 155
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 156
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 157
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 158
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 159
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 160
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 161
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 162
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 163
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 164
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 165
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 166
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 167
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 168
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 169
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 170
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 171
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 172
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 173
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 174
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 175
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 176
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 177
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 178
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 179
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 180
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 181
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 182
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 183
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 184
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 185
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 186
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 187
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 188
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 189
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 190
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 191
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 192
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 193
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 194
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 195
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 196
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 197
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 198
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 199
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 200
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 201
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 202
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 203
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 204
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 205
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 206
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 207
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 208
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 209
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 210
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 211
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 212
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 213
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 214
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 215
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 216
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 217
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 218
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 219
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 220
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 221
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 222
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 223
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 224
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 225
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 226
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 227
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 228
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 229
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 230
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 231
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 232
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 233
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 234
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 235
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 236
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 237
+shashi:yuv_save
+shashi:decode_write_frame
+Got frame 238
+shashi:yuv_save
+Got frame 239
+shashi:yuv_save
+shashi:fclose(file)
+shashi:fclose(outfile)
+shashi:avcodec_close
+shashi:av_free
+shashi:av_parser_close
+shashi:av_frame_free
+Done
+Decoding time: 0.423s, speed: 570.3 FPS
+
