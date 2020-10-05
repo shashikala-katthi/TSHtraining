@@ -177,6 +177,7 @@ int av_codec_is_decoder(const AVCodec *codec)
 
 av_cold void avcodec_register(AVCodec *codec)
 {
+printf("libavcodec/utils.c::avcodec_register\n");
     AVCodec **p;
     avcodec_init();
     p = last_avcodec;
@@ -2950,6 +2951,7 @@ int attribute_align_arg avcodec_receive_packet(AVCodecContext *avctx, AVPacket *
 
 av_cold int avcodec_close(AVCodecContext *avctx)
 {
+printf("libavcodec/utils.c:avcodec_close\n");
     int i;
 
     if (!avctx)
@@ -3054,6 +3056,7 @@ AVCodec *avcodec_find_encoder_by_name(const char *name)
 
 AVCodec *avcodec_find_decoder(enum AVCodecID id)
 {
+printf("libavcodec/utils.c:avcodec_find_decoder\n");
     return find_encdec(id, 0);
 }
 

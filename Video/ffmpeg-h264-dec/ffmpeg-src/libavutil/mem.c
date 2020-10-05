@@ -228,6 +228,7 @@ int av_reallocp_array(void *ptr, size_t nmemb, size_t size)
 
 void av_free(void *ptr)
 {
+printf("libavutil/mem.c:av_free\n");
 #if CONFIG_MEMALIGN_HACK
     if (ptr) {
         int v= ((char *)ptr)[-1];

@@ -12,7 +12,7 @@ extern AVCodecParser ff_h264_parser;
 
 static void yuv_save(unsigned char *buf[], int wrap[], int xsize,int ysize, FILE *f)
 {
-	printf("shashi:yuv_save\n");
+	printf("shashi:main:yuv_save\n");
 	int i;	
 	for (i = 0; i < ysize; i++) {
 		fwrite(buf[0] + i * wrap[0], 1, xsize, f);
@@ -29,7 +29,7 @@ static void yuv_save(unsigned char *buf[], int wrap[], int xsize,int ysize, FILE
 static int decode_write_frame(FILE *file, AVCodecContext *avctx,
 							  AVFrame *frame, int *frame_index, AVPacket *pkt, int flush)
 {
-	printf("shashi:decode_write_frame\n");
+	printf("shashi:main:decode_write_frame\n");
 	int got_frame = 0;
 	do {
 		int len = avcodec_decode_video2(avctx, frame, &got_frame, pkt);
@@ -50,7 +50,7 @@ static int decode_write_frame(FILE *file, AVCodecContext *avctx,
 
 static void h264_video_decode(const char *filename, const char *outfilename)
 {
-	printf("shashi:h264_video_decode\n");
+	printf("shashi:main:h264_video_decode\n");
 	printf("Decode file '%s' to '%s'\n", filename, outfilename);
 
 	FILE *file = fopen(filename, "rb");
@@ -64,16 +64,17 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 		fprintf(stderr, "Could not open '%s'\n", outfilename);
 		exit(1);
 	}
-	
+	printf("shashi:main:h264_video_decode:avcodec_register\n");
 	avcodec_register(&ff_h264_decoder); //Register the codec codec and initialize libavcodec. 
+	printf("shashi:main:h264_video_decode:av_register_codec_parser\n");
 	av_register_codec_parser(&ff_h264_parser);
-	
+	printf("shashi:main:h264_video_decode:avcodec_find_decoder\n");
 	AVCodec *codec = avcodec_find_decoder(AV_CODEC_ID_H264); //Find a registered decoder with a matching codec ID. 
 	if (!codec) {
 		fprintf(stderr, "Codec not found\n");
 		exit(1);
 	}
-
+	printf("shashi:main:h264_video_decode:avcodec_alloc_context3\n");
 	AVCodecContext *codec_ctx = avcodec_alloc_context3(codec); //Allocate an AVCodecContext and set its fields to default values.
 	if (!codec_ctx) {						//The resulting struct should be freed with avcodec_free_context().
 		fprintf(stderr, "Could not allocate video codec context\n");
@@ -84,13 +85,13 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 		fprintf(stderr, "Could not open codec\n");
 		exit(1);
 	}
-	
+	printf("shashi:main:h264_video_decode:av_parser_init\n");
 	AVCodecParserContext* parser = av_parser_init(AV_CODEC_ID_H264);
 	if(!parser) {
 		fprintf(stderr, "Could not create H264 parser\n");
 		exit(1);
 	}
-
+	printf("shashi:main:h264_video_decode:av_frame_alloc\n");
 	AVFrame *frame = av_frame_alloc();
 	if (!frame) {
 		fprintf(stderr, "Could not allocate video frame\n");
@@ -114,6 +115,7 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 				memcpy(buffer, buf, buf_size);
 				buf = buffer;
 			}
+			printf("shashi:main:h264_video_decode:fread\n");
 			int bytes_read = fread(buffer + buf_size, 1, READ_SIZE, file);
 			if (bytes_read == 0) {
 				// EOF or error
@@ -126,6 +128,7 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 		
 		uint8_t* data = NULL;
   		int size = 0;
+		printf("shashi:main:h264_video_decode:av_parser_parse2\n");
 		int bytes_used = av_parser_parse2(parser, codec_ctx, &data, &size, buf, buf_size, 0, 0, AV_NOPTS_VALUE);
 		if (size == 0) {
 			need_more = 1;
@@ -133,9 +136,11 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 		}
 		if (bytes_used > 0 || ending == 1) {
 			// We have data of one packet, decode it; or decode whatever when ending
+			printf("shashi:main:h264_video_decode:av_init_packet\n");
 			av_init_packet(&packet);
 			packet.data = data;
 			packet.size = size;
+			printf("shashi:h264_video_decode:decode_write_frame::last_arugument 0\n");
 			int ret = decode_write_frame(outfile, codec_ctx, frame, &frame_index, &packet, 0);
 			if (ret < 0) {
 				fprintf(stderr, "Decode or write frame error\n");
@@ -150,20 +155,20 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 	// Flush the decoder
 	packet.data = NULL;
 	packet.size = 0;
+	printf("shashi:main:h264_video_decode:decode_write_frame::last_argument 1\n");
 	decode_write_frame(outfile, codec_ctx, frame, &frame_index, &packet, 1);
-
 	gettimeofday(&tv_end, NULL);
-	printf("shashi:fclose(file)\n");
+	printf("shashi:main:h264_video_decode:fclose(file)\n");
 	fclose(file);
-	printf("shashi:fclose(outfile)\n");
+	printf("shashi:main:h264_video_decode:fclose(outfile)\n");
 	fclose(outfile);
-	printf("shashi:avcodec_close\n");
+	printf("shashi:main:h264_video_decode:avcodec_close\n");
 	avcodec_close(codec_ctx);
-	printf("shashi:av_free\n");
+	printf("shashi:main:h264_video_decode:av_free\n");
 	av_free(codec_ctx);
-	printf("shashi:av_parser_close\n");
+	printf("shashi:main:h264_video_decode:av_parser_close\n");
 	av_parser_close(parser);
-	printf("shashi:av_frame_free\n");
+	printf("shashi:main:h264_video_decode:av_frame_free\n");
 	av_frame_free(&frame);
 	printf("Done\n");
 
@@ -177,13 +182,13 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 static FILE *foutput;
 
 void broadwayOnPictureDecoded(u8 *buffer, u32 width, u32 height) {
-	printf("shashi:broadwayOnPictureDecoded\n");
+	printf("shashi:main:broadwayOnPictureDecoded\n");
 	fwrite(buffer, width*height*3/2, 1, foutput);
 }
 
 static void broadway_decode(const char *filename, const char *outfilename)
 {
-	printf("shashi:broadway_decode\n");
+	printf("shashi:main:broadway_decode\n");
 	printf("Decode file '%s' to '%s'\n", filename, outfilename);
 
 	FILE *finput = fopen(filename, "rb");
@@ -201,16 +206,18 @@ static void broadway_decode(const char *filename, const char *outfilename)
 	fseek(finput, 0L, SEEK_END);
 	u32 length = (u32)ftell(finput);
 	rewind(finput);
-	
+	printf("shashi:main:broadway_decode:broadwayInit\n");
 	broadwayInit();
+	printf("shashi:main:broadway_decode:broadwayCreateStream\n");
 	u8* buffer = broadwayCreateStream(length);
 	fread(buffer, sizeof(u8), length, finput);
+	printf("shashi:main:broadway_decode:fclose(finput)\n");
 	fclose(finput);
-	
+	printf("shashi:main:broadway_decode:broadwayParsePlayStream\n");
 	broadwayParsePlayStream(length);
-	
+	printf("shashi:main:broadway_decode:broadwayEnit\n");
 	broadwayExit();
-	
+	printf("shashi:main:broadway_decode:fclose(foutput)\n");
 	fclose(foutput);
 }
 

@@ -32,6 +32,7 @@
 
 void av_init_packet(AVPacket *pkt)
 {
+printf("libavcodec/avpacket.c:av_init_packet\n");
     pkt->pts                  = AV_NOPTS_VALUE;
     pkt->dts                  = AV_NOPTS_VALUE;
     pkt->pos                  = -1;

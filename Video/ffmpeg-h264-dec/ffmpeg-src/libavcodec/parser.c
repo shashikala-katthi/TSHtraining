@@ -43,6 +43,7 @@ AVCodecParser *av_parser_next(const AVCodecParser *p)
 
 void av_register_codec_parser(AVCodecParser *parser)
 {
+printf("libavcodec/parser.c::av_register_codec_parser\n");
     do {
         parser->next = av_first_parser;
     } while (parser->next != avpriv_atomic_ptr_cas((void * volatile *)&av_first_parser, parser->next, parser));
@@ -50,6 +51,7 @@ void av_register_codec_parser(AVCodecParser *parser)
 
 AVCodecParserContext *av_parser_init(int codec_id)
 {
+printf("libavcodec/parser.c:av_parser_init\n");
     AVCodecParserContext *s = NULL;
     AVCodecParser *parser;
     int ret;
@@ -138,6 +140,7 @@ int av_parser_parse2(AVCodecParserContext *s, AVCodecContext *avctx,
                      const uint8_t *buf, int buf_size,
                      int64_t pts, int64_t dts, int64_t pos)
 {
+printf("libavcodec/parser.c:av_parser_parse2\n");
     int index, i;
     uint8_t dummy_buf[AV_INPUT_BUFFER_PADDING_SIZE];
 
@@ -234,6 +237,7 @@ int av_parser_change(AVCodecParserContext *s, AVCodecContext *avctx,
 
 void av_parser_close(AVCodecParserContext *s)
 {
+printf("libavcodec/parser.c:av_parser_close\n");
     if (s) {
         if (s->parser->parser_close)
             s->parser->parser_close(s);

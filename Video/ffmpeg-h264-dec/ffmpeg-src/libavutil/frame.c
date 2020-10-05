@@ -140,6 +140,7 @@ static void wipe_side_data(AVFrame *frame)
 
 AVFrame *av_frame_alloc(void)
 {
+ printf("libavutil/frame.c:av_frame_alloc\n");
     AVFrame *frame = av_mallocz(sizeof(*frame));
 
     if (!frame)
@@ -153,6 +154,7 @@ AVFrame *av_frame_alloc(void)
 
 void av_frame_free(AVFrame **frame)
 {
+printf("libavutil/frame.c:av_frame_free\n");
     if (!frame || !*frame)
         return;
 

@@ -148,6 +148,7 @@ int avcodec_get_context_defaults3(AVCodecContext *s, const AVCodec *codec)
 
 AVCodecContext *avcodec_alloc_context3(const AVCodec *codec)
 {
+printf("libavcodec/options.c:avcodec_alloc_context3\n");
     AVCodecContext *avctx= av_malloc(sizeof(AVCodecContext));
 
     if (!avctx)
