@@ -132,7 +132,6 @@ static void h264_video_decode(const char *filename, const char *outfilename)
   		int size = 0;
 		printf("shashi:main:h264_video_decode:av_parser_parse2\n");
 		int bytes_used = av_parser_parse2(parser, codec_ctx, &data, &size, buf, buf_size, 0, 0, AV_NOPTS_VALUE);
-		printf("buffer size=%d buffer address=%lu\n",buf_size,&buf);
 		if (size == 0) {
 			need_more = 1;
 			continue;
@@ -143,7 +142,9 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 			av_init_packet(&packet);
 			packet.data = data;
 			packet.size = size;
-			printf("width of the frame=%d,height of the frame=%d,keyframe=%d,format of the frame=%d timestamp of the frame=%I64d\n",frame->width,frame->height,frame->key_frame,frame->format,frame->pts);
+
+			printf("WXH=%dX%d,keyframe=%d,format=%d pic_type=%d ts=%d\n",frame->width,frame->height,frame->key_frame,frame->format,frame->pict_type,frame->pts);
+printf("buffer size=%d buffer address=%X\n",buf_size,&buf);
 			printf("shashi:h264_video_decode:decode_write_frame::last_arugument 0\n");
 			int ret = decode_write_frame(outfile, codec_ctx, frame, &frame_index, &packet, 0);
 			if (ret < 0) {
