@@ -1,0 +1,3295 @@
+shashi:main:h264_video_decode
+Decode file 'test/352x288Foreman.264' to 'test/352x288Foreman.yuv'
+shashi:main:h264_video_decode:avcodec_register
+libavcodec/utils.c::avcodec_register
+shashi:main:h264_video_decode:av_register_codec_parser
+libavcodec/parser.c::av_register_codec_parser
+shashi:main:h264_video_decode:avcodec_find_decoder
+libavcodec/utils.c:avcodec_find_decoder
+shashi:main:h264_video_decode:avcodec_alloc_context3
+libavcodec/options.c:avcodec_alloc_context3
+shashi:main:avcodec_open2
+libavcodec/utils.c:avcodec_open2
+libavcodec/avpacket.c:av_init_packet
+shashi:main:h264_video_decode:av_parser_init
+libavcodec/parser.c:av_parser_init
+shashi:main:h264_video_decode:av_frame_alloc
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4096 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=0,height of the frame=0,keyframe=1,format of the frame=-1 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=484 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=0,height of the frame=0,keyframe=1,format of the frame=-1 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=22 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4118 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4118 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=0,height of the frame=0,keyframe=1,format of the frame=-1 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 0
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3951 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=1,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 1
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3309 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 2
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3121 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 3
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2514 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 4
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2362 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 5
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2007 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 6
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1883 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 7
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1400 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 8
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1275 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 9
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=644 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 10
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=475 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4571 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4571 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 11
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3631 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 12
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3389 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 13
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2178 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 14
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1957 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 15
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=894 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 16
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=715 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4811 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4811 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 17
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3798 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 18
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3531 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 19
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3371 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 20
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2210 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 21
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1980 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 22
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=793 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 23
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=511 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 24
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=338 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4434 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4434 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 25
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3609 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 26
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3429 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 27
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3295 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 28
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2574 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 29
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2387 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 30
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1205 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 31
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=981 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5077 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5077 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 32
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3932 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 33
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3701 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 34
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2324 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 35
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2046 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 36
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=949 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 37
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=673 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 38
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=454 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4550 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4550 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 39
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3356 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 40
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3095 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 41
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2053 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 42
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1797 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 43
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=834 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 44
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=566 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4662 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4662 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 45
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3377 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 46
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2966 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 47
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1552 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 48
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1239 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 49
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=170 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4266 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4266 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 50
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4030 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 51
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2506 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 52
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2154 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 53
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=655 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 54
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=340 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4436 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4436 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 55
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3184 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 56
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2892 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 57
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1764 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 58
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1474 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 59
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=333 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4429 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4429 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 60
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4017 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 61
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3709 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 62
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2511 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 63
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2199 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 64
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=847 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 65
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=508 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4604 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4604 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 66
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3297 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 67
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2968 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 68
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1610 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 69
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1273 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5369 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5369 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 70
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3840 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 71
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3494 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 72
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2215 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 73
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1826 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 74
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1509 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5605 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5605 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 75
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4088 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 76
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3669 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 77
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2031 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 78
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1639 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 79
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=210 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4306 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4306 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 80
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3954 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 81
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2412 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 82
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2013 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 83
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=384 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4480 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 84
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4101 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 85
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2715 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 86
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2390 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 87
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1135 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 88
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=581 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4677 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4677 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 89
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2958 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 90
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2423 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 91
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=220 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4316 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4316 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 92
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3717 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 93
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2131 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 94
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1826 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 95
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=640 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 96
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=366 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4462 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4462 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 97
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3224 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 98
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2956 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 99
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2736 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 100
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1596 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 101
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1296 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 102
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1095 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 103
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=148 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4244 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4244 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 104
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3903 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 105
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3674 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 106
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3496 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 107
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2457 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 108
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2073 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 109
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1873 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 110
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1656 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 111
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=505 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 112
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=228 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 113
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=33 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4129 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4129 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 114
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3919 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 115
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2830 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 116
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2588 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 117
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2358 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 118
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1113 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 119
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=799 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 120
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=552 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4648 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4648 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 121
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3343 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 122
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3045 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 123
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1489 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 124
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1154 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5250 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5250 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 125
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3469 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 126
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3109 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 127
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1948 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 128
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=280 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4376 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4376 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 129
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4067 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 130
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2557 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 131
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2244 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 132
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=968 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 133
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=624 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4720 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4720 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 134
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3521 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 135
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3127 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 136
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1556 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 137
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1079 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5175 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5175 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 138
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3582 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 139
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3078 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 140
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1493 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 141
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=963 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5059 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5059 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 142
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3408 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 143
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2904 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 144
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1547 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 145
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1131 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5227 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5227 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 146
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3944 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 147
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3561 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 148
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2420 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 149
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2054 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 150
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=917 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5013 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5013 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 151
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3396 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 152
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1446 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 153
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=452 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4548 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4548 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 154
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2742 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=6838 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=6838 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 155
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3964 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 156
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3341 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 157
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2201 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 158
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1910 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 159
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=777 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 160
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=519 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4615 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4615 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 161
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3570 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 162
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3253 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 163
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3025 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 164
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2182 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 165
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1866 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 166
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1581 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 167
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=312 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4408 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4408 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 168
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3987 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 169
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2569 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 170
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=238 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4334 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4334 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 171
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3727 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 172
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1690 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 173
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1212 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5308 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5308 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 174
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3428 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 175
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2936 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 176
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1354 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 177
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=839 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4935 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4935 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 178
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3879 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 179
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2907 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 180
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1887 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 181
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=762 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4858 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4858 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 182
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3584 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 183
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2367 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 184
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1116 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5212 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5212 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 185
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3916 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 186
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2763 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 187
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1577 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 188
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=455 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4551 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4551 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 189
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3326 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 190
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2014 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 191
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=826 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4922 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4922 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 192
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3740 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 193
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2406 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 194
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=966 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 195
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=469 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4565 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4565 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 196
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3483 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 197
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3023 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 198
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2141 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 199
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1139 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 200
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=69 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4165 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4165 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 201
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3145 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 202
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2169 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 203
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1167 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 204
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=250 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4346 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4346 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 205
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3602 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 206
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2891 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 207
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2109 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 208
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1174 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 209
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=111 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4207 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4207 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 210
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3013 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 211
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1820 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 212
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=672 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4768 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4768 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 213
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3412 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 214
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1635 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 215
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1380 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5476 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=5476 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 216
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3527 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 217
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3313 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 218
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1431 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 219
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1234 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 220
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=223 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 221
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=14 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=4096
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4110 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=4110 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 222
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3177 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 223
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2983 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 224
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2106 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 225
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1926 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 226
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=810 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 227
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=646 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=2761
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3407 buffer address=140733297849048
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=3407 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 228
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2255 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 229
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=2114 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 230
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1548 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 231
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1360 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 232
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=1220 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 233
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=846 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 234
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=683 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 235
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=354 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 236
+shashi:main:yuv_save
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=194 buffer address=140733297849048
+shashi:main:h264_video_decode:fread
+buffer size=0
+shashi:main:h264_video_decode:av_parser_parse2
+libavcodec/parser.c:av_parser_parse2
+buffer size=194 buffer address=140733297849048
+shashi:main:h264_video_decode:av_init_packet
+libavcodec/avpacket.c:av_init_packet
+width of the frame=352,height of the frame=288,keyframe=0,format of the frame=0 timestamp of the frame=                                                               0
+shashi:h264_video_decode:decode_write_frame::last_arugument 0
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 237
+shashi:main:yuv_save
+shashi:main:h264_video_decode:decode_write_frame::last_argument 1
+shashi:main:decode_write_frame
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 238
+shashi:main:yuv_save
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+Got frame 239
+shashi:main:yuv_save
+shashi:main:decode_write_frame:avcodec_decode_video2
+libavcodec/utils.c:avcodec_decode_video2
+shashi:main:h264_video_decode:fclose(file)
+shashi:main:h264_video_decode:fclose(outfile)
+shashi:main:h264_video_decode:avcodec_close
+libavcodec/utils.c:avcodec_close
+libavcodec/avpacket.c:av_init_packet
+shashi:main:h264_video_decode:av_free
+shashi:main:h264_video_decode:av_parser_close
+libavcodec/parser.c:av_parser_close
+shashi:main:h264_video_decode:av_frame_free
+Done
+Decoding time: 0.335s, speed: 720.4 FPS

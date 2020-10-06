@@ -32,6 +32,7 @@ static int decode_write_frame(FILE *file, AVCodecContext *avctx,
 	printf("shashi:main:decode_write_frame\n");
 	int got_frame = 0;
 	do {
+		printf("shashi:main:decode_write_frame:avcodec_decode_video2\n");
 		int len = avcodec_decode_video2(avctx, frame, &got_frame, pkt);
 		if (len < 0) {
 			fprintf(stderr, "Error while decoding frame %d\n", *frame_index);
@@ -80,7 +81,7 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 		fprintf(stderr, "Could not allocate video codec context\n");
 		exit(1);
 	}
-	
+	printf("shashi:main:avcodec_open2\n");
 	if (avcodec_open2(codec_ctx, codec, NULL) < 0) {
 		fprintf(stderr, "Could not open codec\n");
 		exit(1);
@@ -117,6 +118,7 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 			}
 			printf("shashi:main:h264_video_decode:fread\n");
 			int bytes_read = fread(buffer + buf_size, 1, READ_SIZE, file);
+			
 			if (bytes_read == 0) {
 				// EOF or error
 				ending = 1;
@@ -130,6 +132,7 @@ static void h264_video_decode(const char *filename, const char *outfilename)
   		int size = 0;
 		printf("shashi:main:h264_video_decode:av_parser_parse2\n");
 		int bytes_used = av_parser_parse2(parser, codec_ctx, &data, &size, buf, buf_size, 0, 0, AV_NOPTS_VALUE);
+		printf("buffer size=%d buffer address=%lu\n",buf_size,&buf);
 		if (size == 0) {
 			need_more = 1;
 			continue;
@@ -140,6 +143,7 @@ static void h264_video_decode(const char *filename, const char *outfilename)
 			av_init_packet(&packet);
 			packet.data = data;
 			packet.size = size;
+			printf("width of the frame=%d,height of the frame=%d,keyframe=%d,format of the frame=%d timestamp of the frame=%I64d\n",frame->width,frame->height,frame->key_frame,frame->format,frame->pts);
 			printf("shashi:h264_video_decode:decode_write_frame::last_arugument 0\n");
 			int ret = decode_write_frame(outfile, codec_ctx, frame, &frame_index, &packet, 0);
 			if (ret < 0) {
