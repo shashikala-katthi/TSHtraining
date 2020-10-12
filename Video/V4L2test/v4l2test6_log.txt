@@ -5,6 +5,7 @@ Device /dev/video0 opened: Integrated_Webcam_HD: Integrate (usb-0000:00:14.0-5).
 shashi:video_set_format:
 shashi:video_set_format:VIDIOC_S_FMT
 Video format set: width: 640 height: 480 buffer size: 614400
+Video pixel format: YUYY
 shashi:video_set_framerate
 Setting frame rate to: 1/30
 shashi:video_set_framerate:VIDIOC_S_PARAM
@@ -14,22 +15,22 @@ shashi:video_alloc_buffers:VIDIOC_REQBUFS
 6 buffers requested.
 shashi:video_alloc_buffers:VIDIOC_QUERYBUF
 length: 614400 offset: 0
-Buffer 0 mapped at address 0x7fbdbdb16000.
+Buffer 0 mapped at address 0x7f78bc140000.
 shashi:video_alloc_buffers:VIDIOC_QUERYBUF
 length: 614400 offset: 614400
-Buffer 1 mapped at address 0x7fbdbda80000.
+Buffer 1 mapped at address 0x7f78bc0aa000.
 shashi:video_alloc_buffers:VIDIOC_QUERYBUF
 length: 614400 offset: 1228800
-Buffer 2 mapped at address 0x7fbdbd9ea000.
+Buffer 2 mapped at address 0x7f78bc014000.
 shashi:video_alloc_buffers:VIDIOC_QUERYBUF
 length: 614400 offset: 1843200
-Buffer 3 mapped at address 0x7fbdbd542000.
+Buffer 3 mapped at address 0x7f78bbb6c000.
 shashi:video_alloc_buffers:VIDIOC_QUERYBUF
 length: 614400 offset: 2457600
-Buffer 4 mapped at address 0x7fbdbd4ac000.
+Buffer 4 mapped at address 0x7f78bbad6000.
 shashi:video_alloc_buffers:VIDIOC_QUERYBUF
 length: 614400 offset: 3072000
-Buffer 5 mapped at address 0x7fbdbd416000.
+Buffer 5 mapped at address 0x7f78bba40000.
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_queue_buffer:VIDIOC_QBUF
@@ -39,36 +40,36 @@ shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture
 shashi:video_enable:enable ? VIDIOC_STREAMON : VIDIOC_STREAMOFF
 shashi:video_do_capture:VIDIOC_DQBUF
-0 (0) [-] 0 614400 bytes 2559.188545 1600755246.766151
+0 (0) [-] 0 614400 bytes 1232.699643 1602048813.262650
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-1 (1) [-] 2 614400 bytes 2559.452600 1600755246.798170
+1 (1) [-] 2 614400 bytes 1232.967682 1602048813.294645
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-2 (2) [-] 3 614400 bytes 2559.488540 1600755246.830177
+2 (2) [-] 3 614400 bytes 1232.999717 1602048813.330603
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-3 (3) [-] 4 614400 bytes 2559.520536 1600755246.866200
+3 (3) [-] 4 614400 bytes 1233.031699 1602048813.362599
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-4 (4) [-] 5 614400 bytes 2559.556560 1600755246.898282
+4 (4) [-] 5 614400 bytes 1233.067682 1602048813.394635
 shashi:video_do_capture:VIDIOC_DQBUF
-5 (5) [-] 6 614400 bytes 2559.588542 1600755246.934128
+5 (5) [-] 6 614400 bytes 1233.099695 1602048813.430599
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-6 (0) [-] 7 614400 bytes 2559.620565 1600755246.966204
+6 (0) [-] 7 614400 bytes 1233.131698 1602048813.462731
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-7 (1) [-] 8 614400 bytes 2559.656564 1600755246.998187
+7 (1) [-] 8 614400 bytes 1233.167683 1602048813.494680
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-8 (2) [-] 9 614400 bytes 2559.688541 1600755247.034130
+8 (2) [-] 9 614400 bytes 1233.199716 1602048813.530601
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_do_capture:VIDIOC_DQBUF
-9 (3) [-] 10 614400 bytes 2559.720568 1600755247.066198
+9 (3) [-] 10 614400 bytes 1233.235691 1602048813.562609
 shashi:video_queue_buffer:VIDIOC_QBUF
 shashi:video_enable:enable ? VIDIOC_STREAMON : VIDIOC_STREAMOFF
-Captured 9 frames in 0.300804 seconds (29.919815 fps, 20425260.302390 B/s).
+Captured 9 frames in 0.300724 seconds (29.927774 fps, 20430693.925327 B/s).
 shashi:video_free_buffers:VIDIOC_REQBUFS
 6 buffers released.
 shashi:test_video_close

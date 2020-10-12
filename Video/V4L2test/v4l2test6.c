@@ -172,6 +172,10 @@ static int video_set_format(struct device *dev, unsigned int w, unsigned int h, 
 
 	printf("Video format set: width: %u height: %u buffer size: %u\n",
 		fmt.fmt.pix.width, fmt.fmt.pix.height, fmt.fmt.pix.sizeimage);
+	printf("Video pixel format: %c%c%c%c\n",
+		(fmt.fmt.pix.pixelformat >> 0) & 0xff,(fmt.fmt.pix.pixelformat >> 8) & 0xff,
+		(fmt.fmt.pix.pixelformat >> 16) & 0xff,
+		fmt.fmt.pix.pixelformat);
 	return 0;
 }
 
