@@ -1,0 +1,162 @@
+katthi@katthi-Inspiron-15-3567:~/Downloads/video_training/gst-docs/examples/tutorials$ ./playback-tutorial-2
+shashi:main :gst_init
+shashi:main :gst_element_factory_make
+shashi:main :g_object_set:playbin
+shashi:main :g_object_set:playbin for subtitle support
+shashi:main :g_object_set:playbin for font description
+shashi:main :g_object_get:audio and video
+shashi:main :gst_object_get_bus
+shashi:main :gst_bus_add_watch:message notifications
+shashi:main :g_io_add_watch:keyboard notifications
+shashi:main :gst_element_set_state:to set state as playing
+shashi:main :g_main_loop_new
+shashi:main :g_main_loop_run
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message::analyze_streams
+shashi:analyze_streams::open
+shashi:analyze_streams::g_object_get:for video
+shashi:analyze_streams::g_object_get:for audio
+shashi:analyze_streams::g_object_get:for text
+1 video stream(s), 1 audio stream(s), 6 text stream(s)
+
+shashi:analyze_streams::g_signal_emit_by_name:for video tags
+video stream 0:
+shashi:analyze_streams::gst_tag_list_get_string:for video stream
+  codec: Theora
+shashi:analyze_streams::gst_tag_list_unref:to unref video tags
+
+shashi:analyze_streams::g_signal_emit_by_name:for audio tags
+audio stream 0:
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream
+  codec: Vorbis
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream language
+shashi:analyze_streams::gst_tag_list_get_uint:for audio stream bitrate
+  bitrate: 80000
+shashi:analyze_streams::gst_tag_list_unref:to unref audio tags
+
+subtitle stream 0:
+shashi:analyze_streams::g_signal_emit_by_name:for text tags
+  no tags found
+subtitle stream 1:
+shashi:analyze_streams::g_signal_emit_by_name:for text tags
+  no tags found
+subtitle stream 2:
+shashi:analyze_streams::g_signal_emit_by_name:for text tags
+  no tags found
+subtitle stream 3:
+shashi:analyze_streams::g_signal_emit_by_name:for text tags
+  no tags found
+subtitle stream 4:
+shashi:analyze_streams::g_signal_emit_by_name:for text tags
+  no tags found
+subtitle stream 5:
+shashi:analyze_streams::g_signal_emit_by_name:for text tags
+  no tags found
+shashi:analyze_streams::g_object_get:for current video stream
+shashi:analyze_streams::g_object_get:for current audio stream
+shashi:analyze_streams::g_object_get:for current subtitle stream
+
+Currently playing video stream 0, audio stream 0 and subtitle stream 0
+Type any number and hit ENTER to select a different subtitle stream
+shashi:analyze_streams::closeshashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:close
+1
+shashi:handle_keyboard::open
+shashi:handle_keyboard::g_io_channel_read_line
+Setting current subtitle stream to 1
+shashi:handle_keyboard::g_object_set:to change subtitle stream
+shashi:handle_keyboard::close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:close
+0
+shashi:handle_keyboard::open
+shashi:handle_keyboard::g_io_channel_read_line
+Setting current subtitle stream to 0
+shashi:handle_keyboard::g_object_set:to change subtitle stream
+shashi:handle_keyboard::close
+shashi:handle_message::open
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+2
+shashi:handle_keyboard::open
+shashi:handle_keyboard::g_io_channel_read_line
+Setting current subtitle stream to 2
+shashi:handle_keyboard::g_object_set:to change subtitle stream
+shashi:handle_keyboard::close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message:close
+shashi:handle_message::open
+End-Of-Stream reached.
+shashi:handle_message:g_main_loop_quit
+shashi:handle_message:switch:case 2:close
+shashi:handle_message:close
+shashi:main :g_main_loop_run:to unref the main_loop
+shashi:main :g_io_channel_unref:to inref the io_channel
+shashi:main :gst_object_unref:to unref the bus
+shashi:main :gst_element_set_state:as null
+shashi:main :gst_object_unref:to unref playbin
+
+

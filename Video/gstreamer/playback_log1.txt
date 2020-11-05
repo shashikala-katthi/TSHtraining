@@ -1,0 +1,138 @@
+shashi:main :gst_init
+shashi:main :gst_element_factory_make
+shashi:main :g_printerr
+shashi:main :g_object_set:playbin
+shashi:main :g_object_get:audio and video
+shashi:main :g_object_set:audio and video
+shashi:main :g_object_set:playbin inernal decisions
+shashi:main :gst_object_get_bus
+shashi:main :gst_bus_add_watch:message notifications
+shashi:main :g_io_add_watch:keyboard notifications
+shashi:main :gst_element_set_state:to set state as playing
+shashi:main :g_main_loop_new
+shashi:main :g_main_loop_run
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message:switch:case 3:close
+shashi:handle_message::close
+
+shashi:handle_message::open
+shashi:handle_message:gst_message_parse_state_changed
+shashi:handle_message::analyze_streams
+shashi:analyze_streams::open
+shashi:analyze_streams::g_object_get:for video
+shashi:analyze_streams::g_object_get:for audio
+shashi:analyze_streams::g_object_get:for text
+1 video stream(s), 3 audio stream(s), 0 text stream(s)
+
+shashi:analyze_streams::g_signal_emit_by_name:for video tags
+video stream 0:
+shashi:analyze_streams::gst_tag_list_get_string:for video stream
+  codec: On2 VP8
+shashi:analyze_streams::gst_tag_list_unref:to unref video tags
+
+shashi:analyze_streams::g_signal_emit_by_name:for audio tags
+audio stream 0:
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream
+  codec: Vorbis
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream language
+  language: pt
+shashi:analyze_streams::gst_tag_list_get_uint:for audio stream bitrate
+  bitrate: 160000
+shashi:analyze_streams::gst_tag_list_unref:to unref audio tags
+shashi:analyze_streams::g_signal_emit_by_name:for audio tags
+audio stream 1:
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream
+  codec: Vorbis
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream language
+  language: en
+shashi:analyze_streams::gst_tag_list_get_uint:for audio stream bitrate
+  bitrate: 160000
+shashi:analyze_streams::gst_tag_list_unref:to unref audio tags
+shashi:analyze_streams::g_signal_emit_by_name:for audio tags
+audio stream 2:
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream
+  codec: Vorbis
+shashi:analyze_streams::gst_tag_list_get_string:for audio stream language
+  language: es
+shashi:analyze_streams::gst_tag_list_get_uint:for audio stream bitrate
+  bitrate: 160000
+shashi:analyze_streams::gst_tag_list_unref:to unref audio tags
+
+shashi:analyze_streams::g_object_get:for current video stream
+shashi:analyze_streams::g_object_get:for current audio stream
+shashi:analyze_streams::g_object_get:for current text stream
+
+Currently playing video stream 0, audio stream 0 and text stream -1
+Type any number and hit ENTER to select a different audio stream
+shashi:analyze_streams::closeshashi:handle_message:switch:case 3:close
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_keyboard::open
+shashi:handle_keyboard::g_io_channel_read_line
+Setting current audio stream to 1
+shashi:handle_keyboard::g_object_set:to change audio stream
+shashi:handle_keyboard::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_keyboard::open
+shashi:handle_keyboard::g_io_channel_read_line
+Setting current audio stream to 2
+shashi:handle_keyboard::g_object_set:to change audio stream
+shashi:handle_keyboard::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_keyboard::open
+shashi:handle_keyboard::g_io_channel_read_line
+Setting current audio stream to 0
+shashi:handle_keyboard::g_object_set:to change audio stream
+shashi:handle_keyboard::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+shashi:handle_message::close
+shashi:handle_message::open
+End-Of-Stream reached.
+shashi:handle_message:g_main_loop_quit
+shashi:handle_message:switch:close 2:close
+shashi:handle_message::close
+shashi:main :g_main_loop_run:to unref the main_loop
+shashi:main :g_io_channel_unref:to inref the io_channel
+shashi:main :gst_object_unref:to unref the bus
+shashi:main :gst_element_set_state:as null
+shashi:main :gst_object_unref:to unref playbin
