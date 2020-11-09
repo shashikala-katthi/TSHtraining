@@ -1,0 +1,115 @@
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:main:gst_init
+shashi:main: gst_registry_feature_filter
+shashi:filter_vis_features:open
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+shashi:filter_vis_features:open
+shashi:filter_vis_features:gst_element_factory_get_klass 
+Available visualization plugins:
+shashi:main:gst_element_factory_get_longname 
+  GOOM: what a GOOM!
+shashi:main:gst_element_factory_get_longname 
+  Monoscope
+shashi:main:gst_element_factory_get_longname 
+  GOOM: what a GOOM! 2k1 edition
+shashi:main:gst_element_factory_get_longname 
+  Waveform oscilloscope
+shashi:main:gst_element_factory_get_longname 
+  Synaescope
+shashi:main:gst_element_factory_get_longname 
+  Frequency spectrum scope
+shashi:main:gst_element_factory_get_longname 
+  Stereo visualizer
+shashi:main:gst_element_factory_get_longname
+Selected 'GOOM: what a GOOM! 2k1 edition'
+shashi:main:gst_element_factory_create 
+shashi:main:gst_parse_launch
+shashi:main:g_object_get
+shashi:main: g_object_set
+shashi:main: g_object_set:for playbin2
+shashi:main:gst_element_set_state:set as playing
+shashi:main:gst_element_get_bus
+shashi:main:gst_bus_timed_pop_filtered 
+
+shashi:main: gst_message_unref:to unref the msg
+shashi:main: gst_plugin_feature_list_free:to free the list
+shashi:main:gst_object_unref:to unref the bus
+shashi:main:gst_element_set_state:to set as null
+shashi:main:gst_object_unref:to unref the pipeline
+

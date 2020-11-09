@@ -1,0 +1,148 @@
+katthi@katthi-Inspiron-15-3567:~/Downloads/video_training/gst-docs/examples/tutorials$ ./playback-tutorial-5
+shashi:main:gst_init
+USAGE: Choose one of the following options, then press enter:
+ 'C' to increase contrast, 'c' to decrease contrast
+ 'B' to increase brightness, 'b' to decrease brightness
+ 'H' to increase hue, 'h' to decrease hue
+ 'S' to increase saturation, 's' to decrease saturation
+ 'Q' to quit
+shashi:main: gst_parse_launch
+shashi:main: g_io_add_watch
+shashi:main:gst_element_set_state :set as playing
+shashi:main:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  50% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  50% 
+shashi:print_current_values:close
+shashi:main: g_main_loop_new
+shashi:main:g_main_loop_run
+s
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:update_color_channel:open
+shashi:update_color_channel:gst_color_balance_list_channels
+shashi:update_color_channel:gst_color_balance_get_value 
+shashi:update_color_channel:gst_color_balance_set_value
+shashi:update_color_channel:close
+shashi:handle_keyboard:case 's':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  50% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  40% 
+shashi:print_current_values:close
+h
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:update_color_channel:open
+shashi:update_color_channel:gst_color_balance_list_channels
+shashi:update_color_channel:gst_color_balance_get_value 
+shashi:update_color_channel:gst_color_balance_set_value
+shashi:update_color_channel:close
+shashi:handle_keyboard:case 'h':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  40% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  40% 
+shashi:print_current_values:close
+c
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:update_color_channel:open
+shashi:update_color_channel:gst_color_balance_list_channels
+shashi:update_color_channel:gst_color_balance_get_value 
+shashi:update_color_channel:gst_color_balance_set_value
+shashi:update_color_channel:close
+shashi:handle_keyboard:case 'c':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  40% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  40% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  40% 
+shashi:print_current_values:close
+C
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:update_color_channel:open
+shashi:update_color_channel:gst_color_balance_list_channels
+shashi:update_color_channel:gst_color_balance_get_value 
+shashi:update_color_channel:gst_color_balance_set_value
+shashi:update_color_channel:close
+shashi:handle_keyboard:case 'c':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  40% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  40% 
+shashi:print_current_values:close
+S
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:update_color_channel:open
+shashi:update_color_channel:gst_color_balance_list_channels
+shashi:update_color_channel:gst_color_balance_get_value 
+shashi:update_color_channel:gst_color_balance_set_value
+shashi:update_color_channel:close
+shashi:handle_keyboard:case 's':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  40% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  50% 
+shashi:print_current_values:close
+H
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:update_color_channel:open
+shashi:update_color_channel:gst_color_balance_list_channels
+shashi:update_color_channel:gst_color_balance_get_value 
+shashi:update_color_channel:gst_color_balance_set_value
+shashi:update_color_channel:close
+shashi:handle_keyboard:case 'h':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  50% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  50% 
+shashi:print_current_values:close
+q
+shashi:handle_keyboard:open
+shashi:handle_keyboard:g_io_channel_read_line
+shashi:handle_keyboard:case 'q':close
+shashi:handle_keyboard:print_current_values
+shashi:print_current_values:open
+shashi:print_current_values:gst_color_balance_list_channels 
+shashi:print_current_values:gst_color_balance_get_value
+CONTRAST:  50% shashi:print_current_values:gst_color_balance_get_value
+BRIGHTNESS:  50% shashi:print_current_values:gst_color_balance_get_value
+HUE:  50% shashi:print_current_values:gst_color_balance_get_value
+SATURATION:  50% 
+shashi:print_current_values:close
+shashi:main:g_main_loop_unref:to unref the loop
+shashi:main: g_io_channel_unref:to unref io channel
+shashi:main:gst_element_set_state:set as null
+shashi:main:gst_object_unref:to unref the pipeline
+

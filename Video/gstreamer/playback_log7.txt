@@ -1,0 +1,22 @@
+hashi:main:gst_init
+shashi:main:gst_parse_launch
+shashi:main:gst_element_factory_make
+shashi:main:gst_init
+shashi:main:gst_bin_new
+shashi:main:gst_bin_add_many
+shashi:main:gst_element_link_many 
+shashi:main:gst_element_get_static_pad 
+shashi:main:gst_ghost_pad_new 
+shashi:main:gst_pad_set_active
+shashi:main:gst_element_add_pad
+shashi:main:gst_object_unref 
+shashi:main:g_object_set:band1
+shashi:main:g_object_set:band2 
+shashi:main:g_object_set:audio sink
+shashi:main: gst_element_set_state:as playing
+shashi:main:gst_element_get_bus 
+shashi:main:gst_message_unref:to unref msg
+shashi:main:gst_object_unref:for unref bus 
+shashi:main:gst_element_set_state:set as null
+shashi:main:gst_object_unref:to unref pipeline
+
